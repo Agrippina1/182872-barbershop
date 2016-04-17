@@ -8,11 +8,8 @@
 	<body>
 	<header class="main-header">
     <div class="container">
+      <img src="img/index-logo.png" width="50" height="20" alt="барбершоп">
       <nav class="main-navigation">
-        <ul>
-          <li>
-            <img src="img/index-logo.png" width="50" height="20" alt="барбершоп">
-          </li>
           <li>
             <a href="#">информация</a>
           </li>
@@ -35,32 +32,53 @@
       </div>
     </div>
   </header>
+  <section>
     <div class="care">
       <h1>средства для ухода</h1>
-      <a href="#">главная</a>
-      <a href="#">магазин</a>
-      <a href="#">средства для ухода</a>
+      <ul class="breadcrumbs">
+        <li>
+          <a href="#">главная</a>
+        </li>
+        <li>
+          <a href="#">магазин</a>
+        </li>
+        <li>
+          <a href="#">средства для ухода</a>
+        </li>
+      </ul>
     </div>
     <div class="maker">
       <h2>производители:</h2>
       <form action="https://echo" method="post">
-        <input id="baxter-field" type="text" name="bax">
-          <label for="baxter-field">baxter of california</label><br>
-        <input id="mr-field" type="text" name="mr">
-          <label for="mr-field">mr natty</label><br>
-        <input id="suavecito-field" type="text" name="suav">
-          <label for="suavecito-field">suavecito</label><br>
-        <input id="malin-field" type="text" name="goetz">
-          <label for="malin-field">malin+goetz</label><br>
-        <input id="murrays-field" type="text" name="murr">
-          <label for="murrays-field">murray's</label><br>
-        <input id="grew-field" type="text" name="grew">
-          <label for="grew-field">american Grew</label>
-      </form>
+        <ul>
+          <li>
+            <input id="baxter-field" type="text" name="bax">
+            <label for="baxter-field">baxter of california</label>
+          </li>
+          <li>
+            <input id="mr-field" type="text" name="mr">
+            <label for="mr-field">mr natty</label>
+          </li>
+          <li>
+            <input id="suavecito-field" type="text" name="suav">
+            <label for="suavecito-field">suavecito</label>
+          </li>
+          <li>
+            <input id="malin-field" type="text" name="goetz">
+            <label for="malin-field">malin+goetz</label>
+          </li>
+          <li>
+            <input id="murrays-field" type="text" name="murr">
+            <label for="murrays-field">murray's</label>
+          </li>
+          <li>
+            <input id="grew-field" type="text" name="grew">
+            <label for="grew-field">american Grew</label>
+          </li>
+        </ul>
     </div>
     <div class="produkts">
       <h2>группы товаров</h2>
-      <form action="https://echo" method="post">
         <label>
           <input type="radio" name="razor" value="Бритвенные принадлежности">Бритвенные принадлежности
         </label>
@@ -70,72 +88,85 @@
         <label>
           <input type="radio" name="accessories" value="Аксессуары">Аксессуары
         </label>
-      </form>
       </div>
-      <a class="display" href="#">Показать</a>
+      <input type="submit" value="показать">
+      </form>
     <div class="catalog-items">
       <article class="catalog-item">
+        <a href="catalog-item.html">
         <div class="image">
           <img src="http://placehold.it/150x100" alt="">
       </div>
-        <p class="text">Набор для путешествий"Baxter of California"</p>
+        <p class="text">Набор для путешествий "Baxter of California"</p>
         <p class="prise">2900 руб.</p>
         <a href="#" class="btn">Купить</a>
+        </a>
       </article>
       <article class="catalog-item">
+        <a href="catalog-item.html">
         <div class="image">
           <img src="http://placehold.it/150x100" alt="">
       </div>
         <p class="text">Увлажняющий кондиционер "Baxter California"</p>
         <p class="prise">750 руб.</p>
         <a href="#" class="btn">Купить</a>
+      </a>
       </article>
       <article class="catalog-item">
+        <a href="catalog-item.html">
         <div class="image">
           <img src="http://placehold.it/150x100" alt="">
       </div>
         <p class="text">Гель для волос "Sauvecito"</p>
         <p class="prise">290 руб.</p>
         <a href="#" class="btn">Купить</a>
+      </a>
       </article>
       <article class="catalog-item">
+        <a href="catalog-item.html">
         <div class="image">
           <img src="http://placehold.it/150x100" alt="">
       </div>
         <p class="text">Глина для укладки волос "American Grew"</p>
         <p class="prise">500 руб.</p>
         <a href="#" class="btn">Купить</a>
+        </a>
       </article>
       <article class="catalog-item">
+        <a href="catalog-item.html">
         <div class="image">
           <img src="http://placehold.it/150x100" alt="">
       </div>
         <p class="text">Гель для волос "American Grew"</p>
         <p class="prise">300 руб.</p>
         <a href="#" class="btn">Купить</a>
+        </a>
       </article>
       <article class="catalog-item">
+          <a href="catalog-item.html">
         <div class="image">
           <img src="http://placehold.it/150x100" alt="">
       </div>
         <p class="text">Набор для бритья "Baxter of California"</p>
         <p class="prise">3900 руб.</p>
         <a href="#" class="btn">Купить</a>
+        </a>
       </article>
     </div>
-    <div class="page">
+    <div class="pagination">
         <a href="#">1</a>
         <a href="#">2</a>
         <a href="#">3</a>
         <a href="#">4</a>
     </div>
+  </section>
   <footer class="main-footer">
     <div class="container">
         <div class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
           <a href="#">Как нас найти?</a><br>
-          Телефон: +7(495)666-02-66
+          <a href="#">Телефон: +7(495)666-02-66</a>
         </div>
       <div class="footer-social">
           <p>Давайте дружить!</p>
