@@ -14,3 +14,25 @@ h2 {
   line-height: 30px;
   color: #000000;
 }
+header {
+  width: 1200px;
+  background-color: #000000;
+  color: #f7f4f1;
+}
+.main-header {
+  min-height: 70px;
+}
+section {
+  background-color: #d3ea76;
+}
+footer {
+  background-color: #aaea76;
+}
+.main-logo {
+  float: left;
+  width: 150px;
+}
+nav {
+  display: inline-block;
+  width: 560px;
+}
