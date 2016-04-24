@@ -7,7 +7,7 @@
 	</head>
 	<body>
 	<header class="main-header">
-    <div class="container">
+    <div class="container clearfix">
       <div class="main-logo">
         <a href="#">
           <img src="img/logo.png" width="111" height="24" alt="barbershop">
@@ -52,121 +52,161 @@
         </li>
       </ul>
     </div>
-    <div class="maker">
-      <h2>производители:</h2>
-      <form action="https://echo" method="post">
-        <ul>
-          <li>
-            <input id="baxter-field" type="checkbox" name="bax" checked>
-            <label for="baxter-field">baxter of california</label>
-          </li>
-          <li>
-            <input id="mr-field" type="checkbox" name="mr">
-            <label for="mr-field">mr natty</label>
-          </li>
-          <li>
-            <input id="suavecito-field" type="checkbox" name="suav" checked>
-            <label for="suavecito-field">suavecito</label>
-          </li>
-          <li>
-            <input id="malin-field" type="checkbox" name="goetz">
-            <label for="malin-field">malin+goetz</label>
-          </li>
-          <li>
-            <input id="murrays-field" type="checkbox" name="murr">
-            <label for="murrays-field">murray's</label>
-          </li>
-          <li>
-            <input id="grew-field" type="checkbox" name="grew" checked>
-            <label for="grew-field">american Grew</label>
-          </li>
-        </ul>
-    <div class="products">
-      <h2>группы товаров</h2>
-        <label>
-          <input id="rasor-field" type="radio" name="razor" value="Бритвенные принадлежности">Бритвенные принадлежности
-        </label>
-        <label>
-          <input id="care-field" type="radio" name="care" value="Средства для ухода" checked>Средства для ухода
-        </label>
-        <label>
-          <input id="accessories-field" type="radio" name="accessories" value="Аксессуары">Аксессуары
-        </label>
-      </div>
-      <input type="submit" value="показать">
-      </form>
-    </div>
-    <div class="catalog-items">
-      <article class="catalog-item">
-        <a href="catalog-item.html">
-        <div class="image">
-          <img src="img/set.png" width="220" heiht="165" alt="">
+    <div class="main-wrapper clearfix">
+      <div class="maker">
+        <form action="https://echo" method="post">
+          <h2>производители:</h2>
+          <ul>
+            <li>
+              <input id="baxter-field" type="checkbox" name="bax" checked>
+              <label for="baxter-field">baxter of california</label>
+            </li>
+            <li>
+              <input id="mr-field" type="checkbox" name="mr">
+              <label for="mr-field">mr natty</label>
+            </li>
+            <li>
+              <input id="suavecito-field" type="checkbox" name="suav" checked>
+              <label for="suavecito-field">suavecito</label>
+            </li>
+            <li>
+              <input id="malin-field" type="checkbox" name="goetz">
+              <label for="malin-field">malin+goetz</label>
+            </li>
+            <li>
+              <input id="murrays-field" type="checkbox" name="murr">
+              <label for="murrays-field">murray's</label>
+            </li>
+            <li>
+              <input id="grew-field" type="checkbox" name="grew" checked>
+              <label for="grew-field">american Grew</label>
+            </li>
+          </ul>
+        <div class="products">
+          <h2>группы товаров</h2>
+          <ul>
+            <li>
+              <label>
+                <input id="rasor-field" type="radio" name="razor" value="Бритвенные принадлежности">Бритвенные принадлежности
+              </label>
+            </li>
+            <li>
+              <label>
+                <input id="care-field" type="radio" name="care" value="Средства для ухода" checked>Средства для ухода
+              </label>
+            </li>
+            <li>
+              <label>
+                <input id="accessories-field" type="radio" name="accessories" value="Аксессуары">Аксессуары
+              </label>
+            </li>
+          </ul>
         </div>
-          <p class="text">Набор для путешествий "Baxter of California"</p>
-          <p class="price">2900 руб.</p>
-        </a>
-          <a href="#" class="btn">Купить</a>
-      </article>
-      <article class="catalog-item">
-        <a href="catalog-item.html">
-          <div class="image">
-            <img src="img/conditions.png" width="220" height="165" alt="">
+        <input type="submit" value="показать">
+        </form>
+      </div>
+      <div class="catalog-items">
+        <article class="catalog-item">
+          <a href="catalog-item.html">
+            <div class="image">
+              <img src="img/set.png" width="220" height="165" alt="">
+            </div>
+          <div class="text">
+            <h4>Набор для путешествий</h4>
+            <span>"Baxter of California"</span>
           </div>
-          <p class="text">Увлажняющий кондиционер "Baxter California"</p>
-          <p class="price">750 руб.</p>
-        </a>
-          <a href="#" class="btn">Купить</a>
-      </article>
-      <article class="catalog-item">
-        <a href="catalog-item.html">
-          <div class="image">
-            <img src="img/gel.png" width="220" height="165" alt="">
+          </a>
+          <div class="get">
+            <span class="price">2900 руб.</span>
+            <a href="#" class="btn">Купить</a>
           </div>
-          <p class="text">Гель для волос "Sauvecito"</p>
-          <p class="price">290 руб.</p>
-        </a>
-          <a href="#" class="btn">Купить</a>
-      </article>
-      <article class="catalog-item">
-        <a href="catalog-item.html">
-          <div class="image">
-            <img src="img/glay.png" width="220" height="165" alt="">
+        </article>
+        <article class="catalog-item">
+          <a href="catalog-item.html">
+            <div class="image">
+              <img src="img/conditions.png" width="220" height="165" alt="">
+            </div>
+            <div class="text">
+              <h4>Увлажняющий кондиционер</h4>
+              <span>"Baxter California"</span>
+            </div>
+          </a>
+          <div class="get">
+            <span class="price">750 руб.</span>
+            <a href="#" class="btn">Купить</a>
           </div>
-          <p class="text">Глина для укладки волос "American Grew"</p>
-          <p class="price">500 руб.</p>
-        </a>
-          <a href="#" class="btn">Купить</a>
-      </article>
-      <article class="catalog-item">
-        <a href="catalog-item.html">
-          <div class="image">
-            <img src="img/gel2.png" width="220" height="165" alt="">
+        </article>
+        <article class="catalog-item">
+          <a href="catalog-item.html">
+            <div class="image">
+              <img src="img/gel.png" width="220" height="165" alt="">
+            </div>
+            <div class="text">
+              <h4>Гель для волос</h4>
+              <span>"Sauvecito"</span>
+            </div>
+          </a>
+          <div class="get">
+            <span class="price">290 руб.</span>
+            <a href="#" class="btn">Купить</a>
           </div>
-          <p class="text">Гель для волос "American Grew"</p>
-          <p class="price">300 руб.</p>
-        </a>
-          <a href="#" class="btn">Купить</a>
-      </article>
-      <article class="catalog-item">
-        <a href="catalog-item.html">
-          <div class="image">
-            <img src="img/set2.png" width="220" height="165" alt="">
+        </article>
+        <article class="catalog-item">
+          <a href="catalog-item.html">
+            <div class="image">
+              <img src="img/glay.png" width="220" height="165" alt="">
+            </div>
+            <div class="text">
+              <h4>Глина для укладки волос</h4>
+              <span>"American Grew"</span>
+            </div>
+          </a>
+          <div class="get">
+            <span class="price">500 руб.</span>
+            <a href="#" class="btn">Купить</a>
           </div>
-          <p class="text">Набор для бритья "Baxter of California"</p>
-          <p class="price">3900 руб.</p>
-        </a>
-          <a href="#" class="btn">Купить</a>
-      </article>
-    </div>
-    <div class="pagination">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">4</a>
+        </article>
+        <article class="catalog-item">
+          <a href="catalog-item.html">
+            <div class="image">
+              <img src="img/gel2.png" width="220" height="165" alt="">
+            </div>
+            <div class="text">
+              <h4>Гель для волос</h4>
+              <span>"American Grew"</span>
+            </div>
+          </a>
+          <div class="get">
+            <span class="price">300 руб.</span>
+            <a href="#" class="btn">Купить</a>
+          </div>
+        </article>
+        <article class="catalog-item">
+          <a href="catalog-item.html">
+            <div class="image">
+              <img src="img/set2.png" width="220" height="165" alt="">
+            </div>
+            <div class="text">
+              <h4>Набор для бритья</h4>
+              <span>"Baxter of California"</span>
+            </div>
+          </a>
+          <div class="get">
+            <span class="price">3900 руб.</span>
+            <a href="#" class="btn">Купить</a>
+          </div>
+        </article>
+        <div class="pagination">
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+        </div>
+      </div>
     </div>
   </section>
   <footer class="main-footer">
-    <div class="container">
+    <div class="container clearfix">
         <div class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -179,7 +219,7 @@
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
        </div>
-       <div class="copyright">
+       <div class="footer-copyright">
          <p>Разработано</P>
            <a class="button" href="https://htmlacademy.ru">htmlacademy.ru</a>
         </div>
