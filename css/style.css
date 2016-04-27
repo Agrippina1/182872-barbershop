@@ -90,26 +90,29 @@ section {
   float: left;
   width: 460px;
   background: #5e68ea;
-  text-align: justify;
 }
 .cream {
-  display: inline-block;
-  margin-right: 16px;
+  text-align: justify;
+}
+.cream:nth-child(2) {
+  float: left;
   width: 140px;
+  margin-right: 20px;
 }
 .cream:nth-child(3) {
-  margin-right: 0;
+  float: left;
+  width: 140px;
+  margin-right:
+}
+.cream:nth-child(4) {
   float: right;
   width: 140px;
+  margin-right: 0;
 }
 .wrapper {
   float:right;
   width: 400px;
   background: #d9a4ef;
-}
-.get {
-  display: inline-block;
-  width: 185px;
 }
 .main-footer {
   clear: both;
